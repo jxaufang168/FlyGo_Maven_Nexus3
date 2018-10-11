@@ -3,6 +3,7 @@
 
 修改工程中的 `pom.xml` 配置文件，填写你的私服地址。
 
+```bash
 <distributionManagement>
   <repository>
     <!-- 对应Maven setting.xml配置文件中 server 一一对应 -->
@@ -17,4 +18,4 @@
     <url>http://${你的私服地址}/repository/flygo-hosted-snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
-
+```
